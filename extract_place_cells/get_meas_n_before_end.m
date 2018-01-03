@@ -1,8 +1,8 @@
-%% Here is a function to extract the neuronal activities for a given meas (neuronal firing, licking amounts,
+%% Here is a function to extract the neuronal activities for a given meas (neuronal firing, licking amounts, 
 %% etc) at offset_from_end from the trial ends.
 
-%% The input values of this function are five parameters: the meas, the position of the reward,
-%% the position the mouse occupies, the dataset containing these position values, and offset_from_end from the
+%% The input values of this function are five parameters: the meas, the position of the reward, 
+%% the position the mouse occupies, the dataset containing these position values, and offset_from_end from the 
 %% trial ends (it is given a value of -1 in print_and_plot_place_cells.m).
 
 %% The output values of this function are the neuronal activities at offset_from_end from the trial ends.
